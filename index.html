@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <script src="https://kit.fontawesome.com/3b6165de35.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Balaram Sahu</div>
+            <ul id="nav-links">
+
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+               
+            </ul>
+    </nav>  
+    <button id="dark" onclick="theme()"><i class="fa-solid fa-moon fa-3x fa-rotate-270"  id="moon"></i></button>
+    <nav id="humburger-nav">
+        <div class="logo">Balaram Sahu</div>
+       
+        <div id="humburger-menu">
+            
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </div>
+           <!-- <button id="dark">dark</button> -->
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+       
+    </nav>
+    <div id="profile">
+        <div id="profile-img-container">
+            <img src="./assets/Screenshot_20250316_113849_Gallery.jpg" alt="">
+        </div>
+        <div class="text-container">
+            <p id="text-1">Hello, I'm</p>
+            <h1 id="title">Balaram</h1>
+            <p id="text-2">Mern Stack Developer</p>
+
+            <div id="button-container">
+                <button class="btn " onclick="location.href='./assets/resume-example.pdf'">Visit Resume</button>
+                <button class="btn btn-2" onclick="location.href='./#Contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <i class="fa-brands fa-linkedin "  onclick="location.href='https://www.linkedin.com/in/Balaram20'"></i>
+                    
+                <i class="fa-brands fa-github" onclick="location.href='https://github.com/balaram-401'"></i>
+                    
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <h3>Get To Know More</h3>
+        <h1>About Me</h1>
+        <div id="about-secondpart">
+            <img src="./assets/about-pic.png" alt="my about pic">
+            <div id="about-content">
+                <div id="card">
+                    <div class="cards">
+                        <img src="./assets/experience.png" alt="">
+                        <!-- <h3>Experience</h3> -->
+                        <h3>Fresher</h3>
+                        <h2 id="mern">Mern Stack Developer</h2>
+                    </div>
+                    <div class="cards">
+                        <img src="./assets/education.png" alt="">
+                        <h3>Education </h3>
+                        <h2>BCA</h2>
+                    </div>
+                </div>
+                <div id="description">
+                    <p>I have good knowldge in Frontend and Basic in Backend. I have't worked anywhere but i have made multiple project according to my knowldge.Also i am a quick learner.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="Skills">
+        <div id="addInputBox">
+            <h3>Explore My</h3>
+            <h1>Skills</h1>
+        </div>
+        <div id="Skill-content">
+            <div id="frontend" class="skill-card">
+                <h3 class="Heading">Frontend Developement</h3>
+                 <ul class="skill-menu">
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>HTML</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>CSS</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>JAVASCRIPT</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>REACT JS</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>TAILWIND CSS</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>GIT & GITHUB</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <!-- <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>HTML</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>HTML</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>HTML</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>               
+                      <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>HTML</h4>
+                            <h5>Intermideiate</h5>
+                         </div>
+                      </li>                -->
+                </ul>
+            </div>
+            <div id="backend" class="skill-card">
+                <h3 class="Heading">Backend Developement</h3>
+                <ul class="skill-menu " id="backendmenu">
+                     <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>NODE JS</h4>
+                            <h5>Basic</h5>
+                         </div>
+                     </li>
+                     <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>EXPRESS JS</h4>
+                            <h5>Basic</h5>
+                         </div>
+                     </li>
+                     <li>
+                        <div class="skillBox">
+                            <h4><i class="fa-solid fa-circle-check"></i>MONGODB</h4>
+                            <h5>Basic</h5>
+                         </div>
+                     </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <h3>Explore My</h3>
+        <h1>Projects</h1>
+        <div id="project-container">
+            <div class="project-card">
+                <div id="project-img">
+                    <img src="./assets/project-1.png" alt="">
+                </div>
+                <div class="project-btn">
+                    <button class="btn">Live</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <div id="project-img">
+                    <img src="./assets/project-2.png" alt="">
+                </div>
+                <div class="project-btn">
+                    <button class="btn">Live</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <div id="project-img">
+                    <img src="./assets/project-3.png" alt="">
+                </div>
+                <div class="project-btn">
+                    <button class="btn">Live</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Contact">
+        <h3>Get in Touch</h3>
+        <h1>Contact Me</h1>
+        <div id="Email">
+           <h2> <a href='mailto:bs0478404@gmail.com' style="text-decoration: none;"><i class="fa-solid fa-envelope" ></i> Email Me</a></h2>
+           <h2><a href="https://www.linkedin.com/in/Balaram20"  style="text-decoration: none;"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></h2>
+        </div>
+    </div>
+    <footer>
+        <ul id="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skill</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div id="copy">
+            <p>copyright <i class="fa-regular fa-copyright"></i> 2025 Balaram Sahu</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

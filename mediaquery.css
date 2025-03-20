@@ -1,0 +1,151 @@
+@media screen and (max-width:750px) {
+    #desktop-nav{
+        display: none;
+    }
+    #humburger-nav{
+        display:flex;
+
+    }
+    #profile{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+
+        
+    }
+    .text-container{
+        font-size: 3vmax;
+        flex-wrap: wrap;
+    }
+    #about-secondpart{
+        flex-direction: column;
+    }
+    /* #button-container{
+        flex-direction: column;
+    } */
+     #about-content{
+        align-items: center;
+        gap: 4vw;
+     }
+     .skill-card{
+        width: 100vw;
+        font-size: 10rem;
+      /* height: 20vmax; */
+    }
+    .skillBox{
+       width: 120px;
+       /* border: 2px solid; */
+       margin: 5px;
+       padding: 5px;
+    }
+    #Skill-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .Heading{
+        font-size: 5vw;
+    }
+    .project-card{
+        max-width: 220px;
+    }
+    #project-container{
+        margin: 0;
+        padding: 0;
+        /* border: solid 2px; */
+    }
+    #mern{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width:530px) {
+    .logo{
+        font-size: 1.5rem;
+    }
+    .btn{
+        font-weight: 600;
+        transition: all 0.3 ease-in-out;
+        padding: 0.5rem ;    
+        width: 7rem;
+        border-radius: .4rem;
+        border: rgb(53,53,53) 0.1rem solid;
+        cursor: pointer;
+    }
+    #button-container{
+        flex-direction: column;
+    }
+    #card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        width: 40vw;
+        padding: 1rem;
+    }
+    #about-secondpart{
+         flex-direction: column; 
+       
+        text-align: center; 
+    }
+    #about-secondpart img{
+       /* max-width: 50vw; */
+    }
+    .cards{
+        font-size: smaller;
+    }
+    #skill{
+        /* text-align: center; */
+    }
+    #Skill-content{
+        /* flex-direction: column; */
+    }
+    .skill-card{
+       width: 100vw;
+      /* height: 20vmax; */
+    }
+    .project-card{
+        width: 100vw;
+        margin: 10px;
+    }
+    #project-container{
+        margin: 0;
+        padding: 0;
+    }
+    #footer-links{
+        font-size: 1rem;
+        flex-wrap: wrap;
+        gap: 10 px;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    #Email h2{
+        font-size: 1rem;
+    }
+    /* .skillBox{
+        width: 10px;
+    } */
+    .project-btn{
+        margin: 5px;
+        padding: px;
+    }
+    .project-btn button{
+
+        width: 70px;
+    }
+    #dark{
+        right: 10px;
+        top: 80px;
+    }
+}
